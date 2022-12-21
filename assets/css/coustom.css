@@ -1,0 +1,115 @@
+.hero-bg{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../image/minecraft 1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  
+  @media screen and (max-width:428px) {
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 8px;
+    }
+  }
+  
+  
+  .pagination {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 17px;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .pagination .page-num {
+    cursor: pointer;
+    color: #673ab8;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .pagination .page-num:hover {
+    color: #FF602E;
+  }
+  
+  .pagination .active-item {
+    color: #FF602E;
+  }
+  
+  .pagination .page-num1 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #00A529;
+    color: #fff;
+  }
+
+
+  .active{
+    left: 0;
+  }
+
+  .act{
+    right: 0;
+  }
+
+  .hide{
+    display:block;
+  }
+  
+  .pagination .page-num1:hover {
+    background: #09ee42;
+  }
+  
+  #slots-container > div:first-child {
+    animation: 20s linear alternate infinite move1;
+  }
+  #slots-container > div:nth-child(2) {
+    animation: 20s linear alternate infinite move2;
+  }
+  #slots-container > div:last-child {
+    animation: 20s linear alternate infinite move3;
+  }
+  
+  @keyframes move1 {
+    25% {
+      transform: translateY(180px);
+    }
+    50% {
+      transform: translateY(-180px);
+    }
+  }
+  @keyframes move2 {
+    25% {
+      transform: translateY(-180px);
+    }
+    50% {
+      transform: translateY(180px);
+    }
+  }
+  @keyframes move3 {
+    25% {
+      transform: translateY(180px);
+    }
+    50% {
+      transform: translateY(-180px);
+    }
+  }

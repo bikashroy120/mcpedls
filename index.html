@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="./assets/css/coustom.css" />
+  </head>
+  <body>
+    <header>
+      <div class=" bg-[#eef3f9] fixed shadow-md  w-full z-50">
+        <div class="container">
+          <div class="py-4">
+            <div class="flex items-center w-full justify-between h-full gap-10 lg:mb-3">
+              <div class="hambarger lg:hidden bg-brand py-2 text-white px-5 rounded-3xl">
+                <i class="fa-solid fa-bars sm:text-[30px] text-[17px] cursor-pointer lg:hidden flex"></i>
+              </div>
+              <div class="lg:flex-1">
+                <a href="index.html"><img src="./assets/image/mcpedls.png" alt="" class="sm:w-[205px] w-[150px] h-[47px]" /></a>
+              </div>
+
+              <ul class="navber flex-[2]  lg:flex items-center justify-between lg:static lg:text-gray-900 lg:bg-transparent gap-3 absolute top-[80px] left-[-100%] duration-300 transition-all w-[100%] lg:h-auto h-[100vh] bg-gray-600 text-white ">
+                <li class=" relative w-[100%] group ">
+                  <div class=" w-[100%] py-5 lg:py-0 lg:border-none border-b border-white text-center flex items-center justify-between px-5 lg:px-0 lg:justify-center gap-3 text-[20px] font-semibold"><img src="./assets/image/icon-app.svg" class="w-[30px] hidden lg:block" alt=""><span>Mode</span> <img src="./assets/image/caret-down.svg" class="w-[10px] mt-1 group-hover:rotate-180 duration-300" alt=""></div>
+                  <ul class=" lg:absolute lg:top-8 top-10 group-hover:flex hidden lg:border-t-4 lg:border-green-500 h-[200px] pt-9 overflow-y-scroll scroll-m-1  flex-col items-center justify-center  left-0 lg:bg-white bg-slate-400 w-[100%]">
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Arcade</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Action</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Puzzle</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Simulations</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Sports</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Strategy</a></li>
+                  </ul>
+                </li>
+                <li class=" relative w-[100%] group ">
+                  <div class=" w-[100%] py-5 lg:py-0 lg:border-none border-b border-white text-center flex items-center justify-between px-5 lg:px-0 lg:justify-center gap-3 text-[20px] font-semibold"><img src="./assets/image/icon-app.svg" class="w-[30px] hidden lg:block" alt=""><span>Mode</span> <img src="./assets/image/caret-down.svg" class="w-[10px] mt-1 group-hover:rotate-180 duration-300" alt=""></div>
+                  <ul class=" lg:absolute lg:top-8 top-10 group-hover:flex hidden lg:border-t-4 lg:border-green-500 h-[200px] pt-9 overflow-y-scroll scroll-m-1  flex-col items-center justify-center  left-0 lg:bg-white bg-slate-400 w-[100%]">
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Arcade</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Action</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Puzzle</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Simulations</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Sports</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Strategy</a></li>
+                  </ul>
+                </li>
+                <li class=" relative w-[100%] group ">
+                  <div class=" w-[100%] py-5 lg:py-0 lg:border-none border-b border-white text-center flex items-center justify-between px-5 lg:px-0 lg:justify-center gap-3 text-[20px] font-semibold"><img src="./assets/image/icon-app.svg" class="w-[30px] hidden lg:block" alt=""><span>Mode</span> <img src="./assets/image/caret-down.svg" class="w-[10px] mt-1 group-hover:rotate-180 duration-300" alt=""></div>
+                  <ul class=" lg:absolute lg:top-8 top-10 group-hover:flex hidden lg:border-t-4 lg:border-green-500 h-[200px] pt-9 overflow-y-scroll scroll-m-1  flex-col items-center justify-center  left-0 lg:bg-white bg-slate-400 w-[100%]">
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Arcade</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Action</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Puzzle</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Simulations</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Sports</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Strategy</a></li>
+                  </ul>
+                </li>
+                <li class=" relative w-[100%] group ">
+                  <div class=" w-[100%] py-5 lg:py-0 lg:border-none border-b border-white  text-center flex items-center justify-between px-5 lg:px-0 lg:justify-center gap-3 text-[20px] font-semibold"><img src="./assets/image/icon-app.svg" class="w-[30px] hidden lg:block" alt=""><span>Mode</span> <img src="./assets/image/caret-down.svg" class="w-[10px] mt-1 group-hover:rotate-180 duration-300" alt=""></div>
+                  <ul class=" lg:absolute lg:top-8 top-10 group-hover:flex hidden lg:border-t-4 lg:border-green-500 h-[200px] pt-9 overflow-y-scroll scroll-m-1  flex-col items-center justify-center  left-0 lg:bg-white bg-slate-400 w-[100%]">
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Arcade</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Action</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Puzzle</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Simulations</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Sports</a></li>
+                      <li class=" renovnodil py-2 hover:bg-slate-300 text-center cursor-pointer w-full"><a href="category.html">Strategy</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <div class="flex lg:hidden  bg-brand py-2 text-white px-5 rounded-3xl searchicon">
+                <i class="fa-solid fa-magnifying-glass sm:text-[30px] text-[17px] cursor-pointer lg:hidden flex"></i>
+                
+              </div> 
+            </div>
+
+
+    
+   
+            <div class=" lg:static absolute top-[80px] right-[-100%] duration-300 transition-all bg-slate-500 w-full px-5 py-5 lg:py-0 lg:px-0 lg:bg-transparent search">
+              <form
+              class="bg-white h-[45px] pl-4 flex rounded-full shadow-3xl  items-center justify-between w-[100%]"
+            >
+              <input
+                type="text"
+                placeholder="Type Something..."
+                class="bg-transparent text-[18px] border-none outline-none w-full"
+              />
+              <button
+                type="submit"
+                class="h-full py-2 px-3 sm:px-6 bg-brand text-white flex items-center gap-3 font-poppins font-medium rounded-r-full"
+              >
+              <i class="fa-solid fa-magnifying-glass"></i>
+                Search
+              </button>
+            </form>
+            </div>
+     
+         
+        
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- hero area  -->
+    <div class="h-auto hero-bg pt-28 text-white">
+      <div class="container">
+        <div
+          class="flex h-[100%] md:h-auto items-center gap-3 lg:flex-row flex-col justify-between mt-14"
+        >
+          <div class="z-20">
+            <h3 class="text-[18px] md:text-[30px] font-poppins font-semibold">
+              Welcome To <span class="text-brand">Cyborg</span>
+            </h3>
+            <h2 class="text-[30px] md:text-[50px] font-poppins font-semibold">
+              BROWSE OUR <br />
+              POPULAR <span class="text-brand">GAMES</span> HERE
+            </h2>
+            <div class="mt-20">
+              <button
+                class="bg-brand py-3 px-10 text-[20px] font-poppins font-semibold text-white rounded-md hover:bg-green-700 duration-300 transition-all"
+              >
+                Browse Now
+              </button>
+            </div>
+          </div>
+          <div class="h-[350px] md:h-[480px] mb-10">
+            <div
+              id="slots-container"
+              class="flex justify-center gap-4 h-[350px] md:h-[480px] overflow-hidden rounded-[8px]"
+            >
+              <div class="space-y-4 -mt-[100px] md:-mt-[170px]">
+                <div
+                  class="w-[90px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 5.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[90px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 5.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[90px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 5.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[90px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 5.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[90px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 5.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              <div class="space-y-4 -mt-[100px] md:-mt-[170px]">
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 6.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 6.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 6.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 6.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 6.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              <div class="space-y-4 -mt-[100px] md:-mt-[170px]">
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 7.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 7.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 7.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 7.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 7.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+
+                <div
+                  class="w-[100px] md:w-[160px] h-[100px] md:h-[160px] bg-gray-500 rounded-[8px] overflow-hidden"
+                >
+                  <img
+                    src="assets/image/image 7.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- category area -->
+
+    <div class="py-5">
+      <div class="container">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-between gap-5 md:flex"
+        >
+          <div
+            class="group relative bg-black bg-opacity-90 w-full h-[170px] rounded-md overflow-hidden cursor-pointer"
+          >
+            <img
+              src="./assets/image/1.jpg"
+              alt=""
+              class="h-[200px] w-full opacity-50 group-hover:scale-110 duration-300 transition-all"
+            />
+            <div class="absolute top-4 left-3">
+              <h2 class="text-white font-poppins font-semibold text-base">
+                Backpack Mod for Minecraft PE
+              </h2>
+              <div class="flex items-center gap-2 text-white py-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3 class="text-white font-poppins font-semibold text-base">
+                MCPE 014.0 - 1.19.0
+              </h3>
+            </div>
+          </div>
+
+          <div
+            class="group relative bg-black bg-opacity-90 w-full h-[170px] rounded-md overflow-hidden cursor-pointer"
+          >
+            <img
+              src="./assets/image/2.jpg"
+              alt=""
+              class="h-[200px] w-full opacity-50 group-hover:scale-110 duration-300 transition-all"
+            />
+            <div class="absolute top-4 left-3">
+              <h2 class="text-white font-poppins font-semibold text-base">
+                Backpack Mod for Minecraft PE
+              </h2>
+              <div class="flex items-center gap-2 text-white py-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3 class="text-white font-poppins font-semibold text-base">
+                MCPE 014.0 - 1.19.0
+              </h3>
+            </div>
+          </div>
+
+          <div
+            class="group relative bg-black bg-opacity-90 w-full h-[170px] rounded-md overflow-hidden cursor-pointer"
+          >
+            <img
+              src="./assets/image/1.jpg"
+              alt=""
+              class="h-[200px] w-full opacity-50 group-hover:scale-110 duration-300 transition-all"
+            />
+            <div class="absolute top-4 left-3">
+              <h2 class="text-white font-poppins font-semibold text-base">
+                Backpack Mod for Minecraft PE
+              </h2>
+              <div class="flex items-center gap-2 text-white py-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3 class="text-white font-poppins font-semibold text-base">
+                MCPE 014.0 - 1.19.0
+              </h3>
+            </div>
+          </div>
+          <div
+            class="group relative bg-black bg-opacity-90 w-full h-[170px] rounded-md overflow-hidden cursor-pointer"
+          >
+            <img
+              src="./assets/image/3.jpg"
+              alt=""
+              class="h-[200px] w-full opacity-50 group-hover:scale-110 duration-300 transition-all"
+            />
+            <div class="absolute top-4 left-3">
+              <h2 class="text-white font-poppins font-semibold text-base">
+                Backpack Mod for Minecraft PE
+              </h2>
+              <div class="flex items-center gap-2 text-white py-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h3 class="text-white font-poppins font-semibold text-base">
+                MCPE 014.0 - 1.19.0
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- product area -->
+
+    <div class='bg-[#EEF3F9] py-[50px] '>
+      <div class="container">
+          <div>
+              <h2 class='text-[30px] font-poppins font-semibold'>Your Gaming Library</h2>
+              <div class='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 xl:grid-cols-7 gap-1 md:gap-3 lg:gap-7 mt-5'>
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <a href="detalis.html"><img  src="assets/image/1.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/></a>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                   <a href="detalis.html"> <img  src="assets/image/2.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/></a>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <a href="detalis.html"><img  src="assets/image/3.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/></a>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/1.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/2.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/3.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/1.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/2.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/3.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/1.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/2.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/3.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/1.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group shadow-5xl border-2 border-white bg-white rounded-3xl overflow-hidden hover:shadow-4xl cursor-pointer duration-300 transition-all" onClick={navrget}>
+                  <div class="h-[150px] overflow-hidden bg-red-400">
+                    <img  src="assets/image/2.jpg" alt="" class=" group-hover:scale-110 duration-300 transition-all w-[100%] h-[100%]"/>
+                  </div>
+                  <div class="p-2">
+                    <div class="">
+                    <h3 class="text-[15px] mb-0 pb-0 font-poppins font-semibold cursor-pointer group-hover:text-brand ">Achievement Mo...</h3>
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-[17px] text-[#7E7E7E] ">
+                          <div class="flex items-center gap-2 text-orange-500 py-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                            <h3 class=" text-brand">3</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='flex items-center justify-center gap-3 flex-wrap pt-10'>
+                  <button class=' bg-brand py-2 hover:bg-green-700 duration-300 transition-all px-10 text-white font-poppins font-semibold rounded-md'>View all MODS</button>
+                  <button class=' bg-brand py-2 hover:bg-green-700 duration-300 transition-all px-10 text-white font-poppins font-semibold rounded-md'>View MAPS</button>
+                  <button class=' bg-brand py-2 hover:bg-green-700 duration-300 transition-all px-10 text-white font-poppins font-semibold rounded-md'>View all TEXTURE</button>
+                  <button class=' bg-brand py-2 hover:bg-green-700 duration-300 transition-all px-10 text-white font-poppins font-semibold rounded-md'>View all MCPE</button>
+                  <button class=' bg-brand py-2 hover:bg-green-700 duration-300 transition-all px-10 text-white font-poppins font-semibold rounded-md'>View all SHADERS</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- footer area -->
+  <div class='flex items-center justify-center bg-slate-500 text-black py-4'>
+    <p>Copyright © 2023 Minecraft Download Company. All rights reserved.</p>
+  </div>
+
+
+
+
+  <script src="./assets/js/coustom.js"></script>
+  </body>
+</html>
