@@ -215,24 +215,28 @@
                 >
                   <div class="flex flex-col justify-center items-center">
                     <div
-                      class="flex items-center text-[30px] gap-2 text-orange-500 py-2"
+                      class="star-widget flex items-center flex-row-reverse text-[30px] gap-2 py-2"
                     >
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
+
+                    <input type="radio" name="rate" id="rate-5">
+                    <label for="rate-5" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-4">
+                    <label for="rate-4" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-3">
+                    <label for="rate-3" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-2">
+                    <label for="rate-2" class="fas fa-star"></label>
+                    <input type="radio" name="rate" id="rate-1">
+                    <label for="rate-1" class="fas fa-star"></label>
                     </div>
                     <span>3 reviews</span>
                   </div>
-                  <button
+                  <a href="#download"><button
                     class="py-3 px-7 rounded-full bg-brand text-white font-poppins font-bold text-[20px] hover:bg-green-700 duration-300 transition-all"
                   >
-                    <AiOutlineCloudDownload
-                      class="font-poppins font-bold mr-2 inline-block"
-                    />
+                    <i class="fa-solid fa-download  font-bold mr-2 inline-block"></i>
                     Download
-                  </button>
+                  </button></a>
                 </div>
               </div>
               <div class="mt-5">
@@ -320,7 +324,7 @@
                 </p>
               </div>
 
-              <div class="w-full h-full bg-opacity-90 pt-5" ref="{reviewsRef}">
+              <div id="download" class="w-full h-full bg-opacity-90 pt-5">
                 <div class="container">
                   <div
                     class="bg-[#F5F5F5] flex items-center justify-center flex-col p-10 border px-3 md:px-20 text-center rounded-2xl"

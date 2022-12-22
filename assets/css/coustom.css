@@ -1,3 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
 .hero-bg{
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../image/minecraft 1.png');
     background-position: center;
@@ -78,6 +87,33 @@
   .pagination .page-num1:hover {
     background: #09ee42;
   }
+
+  .star-widget label{
+    color: gray;
+    cursor: pointer;
+    transition:all 0.2s ease; 
+  }
+
+  .star-widget input{
+    display: none;
+  }
+
+  .star-widget input:not(:checked)~ label:hover,
+  .star-widget input:not(:checked)~label:hover~label{
+    color: #F97316;
+  }
+
+  .star-widget input:checked~label{
+    color: #F97316;
+  }
+
+  .star-widget input#rate-5:checked~label{
+    color: #F97316;
+    text-shadow: 0 0 20px #952;
+  }
+
+
+
   
   #slots-container > div:first-child {
     animation: 20s linear alternate infinite move1;
